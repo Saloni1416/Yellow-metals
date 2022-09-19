@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html,
+  
+  .maincard
+  {
+    /* display: block; */
+    background-image: url("./mainCard.jpg");
+    /* background: center center/cover no-repeat; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 2551px;
+height: 1116px;
+    
+  }
+  
+  .container1{
+    padding-top:0px;
+    padding-bottom: 67rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 4rem;
+
+  }
+  .maincardheading
+  {
+  
+    text-align: center;
+    font-size: 5.5rem;
+    font-family: Open Sans;
+  
+    letter-spacing: normal;
+ 
+  opacity: 1;
+  }
+  
+  
+  
+  .ViewProductsbtn
+  {
+    text-align: center;
+    font: normal normal 200 2rem Open Sans !important;
+    opacity: 0.94;
+  color: #FFFFFF;
+  opacity: 1;
+    width: 386px;
+    height: 87px;
+  
+  }

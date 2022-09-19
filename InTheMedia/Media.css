@@ -1,0 +1,10 @@
+.heading{
+ text-align: center;
+ font: normal normal 600 62px/80px Poppins;
+ margin-bottom: 38px;
+}
+.media{
+    height:300px;
+    width: 800px;
+    margin:100px
+}

@@ -1,0 +1,96 @@
+/* Article */
+
+*{
+  padding: 0px;
+}
+.ArticleTop {
+    background-color: #f5f8ff;
+    text-align: center;
+  }
+  .readmore {
+    margin-left: 134px;
+    font: normal normal medium 25px/40px Poppins;
+  }
+  .socialIcon {
+    margin-right: 30px;
+    float: left;
+  }
+  .card {
+    height: 654px;
+    width: 566px;
+    margin-left: 42px;
+    
+  }
+  .cardContent{
+    padding: 25px;
+    line-height: 31px;
+    margin-left: 20px;
+  }
+  .ReadArticles {
+    width: 2416px;
+    height: 1294px;
+    background-color: #f5f8ff;
+    margin-top: 131px;
+    padding-top: 131px;
+    width: 100%;
+  }
+  .parag{
+    margin-top: 29px;
+    font: normal normal normal 24px/40px Poppins;
+    margin-bottom: 95px;
+  }
+  .cardHead {
+    text-align: left; 
+    margin-top: 38px;
+    font-size:31px ;
+    line-height: 2.3rem;
+  }
+  .cardP {
+    margin-top: 34px;
+    margin-bottom: 64px;
+    font-size: 20px;
+    text-align: justify;
+    width: 483px;
+    height: 81px;
+    
+  }
+  .circle {
+    background-color: #f5f8ff;
+    border: 1px solid #4562db;
+    height: 50px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 50px;
+    color: #4562db;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 2px;
+  }
+  .circle1 {
+    background-color: #4562db;
+    border: 1px solid #4562db;
+    height: 50px;
+    color: #ffffff;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 50px;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 2px;
+    margin-top: 12px;
+  }
+  
+  .pageNo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 18px;
+    margin-top: 98px;
+  }
+  .text {
+    margin-right: 38.5px;
+    margin-left: 38.5px;
+  }

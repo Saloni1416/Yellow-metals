@@ -1,0 +1,222 @@
+/* Order Summary */
+
+.ordContainer {
+  margin-left: 36px;
+  font: normal normal 600 34px/65px Poppins;
+  color: #000000;
+  border: 1px solid #bbbbbb;
+  border-radius: 8px;
+}
+.ordHead {
+  margin-top: 37px;
+  margin-left: 48px;
+}
+.textAndNumber {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.ordSub {
+  margin-top: 100px;
+  font: normal normal medium 29px/65px Poppins;
+  display: inline;
+}
+.ordDel {
+  margin-top: 66px;
+  font: normal normal medium 29px/65px Poppins;
+}
+.ordGST {
+  margin-top: 66px;
+  font: normal normal medium 29px/65px Poppins;
+}
+.Total {
+  margin-top: 57px;
+  margin-bottom: 79px;
+  font: normal normal bold 37px/65px Poppins;
+}
+.numbers1 {
+  color: #4562db;
+  margin-left: 490px;
+  margin-top: 100px;
+}
+.numbers2 {
+  color: #4562db;
+  margin-left: 466px;
+  margin-top: 53px;
+}
+.numbers3 {
+  color: #4562db;
+  margin-left: 623px;
+  margin-top: 53px;
+}
+
+.numbers4 {
+  color: #4562db;
+  margin-left: 494px;
+  margin-top: 53px;
+}
+
+.Proceedbtn {
+  margin-top: 79px;
+  margin-left: 26px;
+  margin-bottom: 53px;
+  border-radius: 9px;
+  width: 762px;
+  height: 100px;
+}
+/* Container */
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+/* SignUp tab */
+.Sign {
+  text-align: left;
+  font: normal normal 600 34px/65px Poppins;
+  width: 116px;
+  height: 48px;
+  margin-left: 42px;
+  margin-top: -9px;
+}
+
+.upArrow {
+  margin-left: 979px;
+}
+.signUpTab {
+  margin-top: 425px;
+  margin-left: 113px;
+  width: 1309px;
+  height: 140px;
+  background-color: #eaf2ffb0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.SignWidth {
+  text-align: left;
+  font: normal normal 600 34px/65px Poppins;
+  width: 341px;
+  height: 48px;
+  margin-left: 42px;
+  margin-top: -9px;
+}
+/* deliveryTab */
+.deliveryTab {
+  margin-top: 62px;
+  margin-left: 113px;
+  width: 1309px;
+  height: 140px;
+  background-color: #eaf2ffb0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.subHeadLname {
+  font-size: 2rem;
+  margin-left: 792px;
+  font-weight: 600;
+  margin-top: -26px;
+}
+.LName {
+  width: 632px;
+  margin-top: 20px;
+  margin-left: 45px;
+  height: 86px;
+  padding: 25px;
+}
+.firstName {
+  font: 40px;
+  height: 86px;
+  padding: 25px;
+  width: 632px;
+  margin-left: 113px;
+  margin-top: 20px;
+}
+.subHeadFname {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 39px;
+  margin-left: 113px;
+}
+
+.flex-Column {
+  display: flex;
+  flex-direction: column;
+}
+.paymentTab {
+  margin-top: 62px;
+  width: 1309px;
+  height: 140px;
+  background-color: #eaf2ffb0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+/* The container */
+.checker {
+  display: block;
+  position: relative;
+  padding-left: 110px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding-top: 0;
+}
+
+/* Hide the browser's default radio button */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: #4562db;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container .checkmark:after {
+  top: 9px;
+  left: 9px;
+  height: 32px;
+  width: 32px;
+  border-radius: 50%;
+  background: white;
+}

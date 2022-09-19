@@ -1,0 +1,38 @@
+/* price Alert */
+.priceAlert {
+    background-image: url("./images/price.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 790px;
+    text-align: left;
+    padding-top: 228px;
+  }
+  .dollar {
+    width: 90px;
+    height: 90px;
+  }
+  
+  .tagAndh1 {
+    display: flex;
+  }
+  .paragraph {
+    width: 1306px;
+    height: 81px;
+    text-align: left;
+    padding-top: 34px;
+    font-size: 2.5rem;
+  }
+  .iconAndPhone {
+    display: flex;
+    padding-top: 64px;
+  }
+  .EnterphNo {
+    padding-top: 30px;
+  }
+  .TextField {
+    width: 517px;
+    height: 62px;
+    
+  }

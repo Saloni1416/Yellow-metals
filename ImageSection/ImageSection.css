@@ -1,0 +1,30 @@
+/* imageSection */
+.gift {
+    color: rgb(8, 6, 11);
+    text-align: left;
+    background-image: url("./Images/gifts.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 168px;
+    padding-left: 115px;
+    width: 1157px;
+    height: 642px;
+  }
+  .akshaya {
+    width: 881px;
+    height: 642px;
+  }
+  .diwali {
+    width: 872px;
+    height: 640px;
+  }
+  .dhanteras {
+    width: 1159px;
+    height: 642px;
+  }
+  .para {
+    padding-top: 34px;
+  }
+ 
+  
